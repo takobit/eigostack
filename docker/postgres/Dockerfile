@@ -1,0 +1,7 @@
+FROM postgres:16-alpine
+
+ENV POSTGRES_USER=postgres \
+    POSTGRES_PASSWORD=postgres \
+    POSTGRES_DB=eigostack
+
+EXPOSE 5432
